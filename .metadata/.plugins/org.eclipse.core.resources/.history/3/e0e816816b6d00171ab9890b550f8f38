@@ -1,0 +1,14 @@
+
+public class MyThreadRunnable implements Runnable{
+	public static void main(String[] args) {
+		
+		Thread t1= new Thread (new MyThreadRunnable());
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

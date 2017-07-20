@@ -1,0 +1,31 @@
+
+public class MyMethod {
+	
+	public static void main(String[] args){
+		System.out.println("Addition from method is " +addition(100,200));
+		mymethod();
+		System.out.println(mystr("Try this "));
+		
+	}
+	
+	public static void mymethod(){
+		System.out.println("Learning Java");
+	}
+	public static int addition(int a, int b){
+		return a+b;
+	}
+	public static String mystr(String p){
+		String m="My Password 123456";
+		return m+p;
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

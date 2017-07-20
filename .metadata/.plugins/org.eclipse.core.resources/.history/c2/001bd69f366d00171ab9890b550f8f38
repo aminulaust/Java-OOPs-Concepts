@@ -1,0 +1,12 @@
+
+public class MyLoops {
+	
+	public static void main(String[] args){
+		int checker=0;
+		while(checker<20){
+			System.out.println("Everything is ok " +checker);
+			checker++;
+		}
+	}
+
+}

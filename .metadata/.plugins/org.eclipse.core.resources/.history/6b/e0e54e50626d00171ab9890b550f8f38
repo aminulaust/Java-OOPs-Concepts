@@ -1,0 +1,9 @@
+
+public class MySelf {
+	
+	public static void main(String[] arg){
+		MyFather myf1= new MyFather();
+		MyFather myf2= new MyBro();
+	}
+
+}

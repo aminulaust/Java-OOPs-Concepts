@@ -1,0 +1,17 @@
+
+public class MyMethod {
+	
+	public static void main(String[] args){
+		System.out.println("Addition from method is " +addition(100,200));
+		
+	}
+	
+	public static void mymethod(){
+		
+		
+	}
+	public static int addition(int a, int b){
+		return a+b;
+	}
+
+}
